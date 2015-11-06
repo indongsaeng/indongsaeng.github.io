@@ -41,7 +41,7 @@ video {
   font-weight: lighter;
 }
 .notice-frame a{color: #fff;font-weight: bold;}
-.notice-frame a:hover{color:#00BFFF;}
+.notice-frame a:hover{color:#eeff41;}
 .notice{font-weight: bold;}
 h1,h2{opacity: 0; visibility: hidden;}
 .my-email{float: right;}
