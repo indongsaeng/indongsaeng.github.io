@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+ background: #fff;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+          transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+   margin:0;
+}
+.notice-frame{
+  background: rgba(0,0,0,0.5);
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.notice-frame h3{
+  text-align: center;
+  padding: 0 10%;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+.notice-frame a{color: #fff;font-weight: bold;}
+.notice-frame a:hover{color:#00BFFF;}
+.notice{font-weight: bold;}
+h1,h2{opacity: 0; visibility: hidden;}
+.my-email{float: right;}
