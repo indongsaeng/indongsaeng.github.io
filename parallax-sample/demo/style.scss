@@ -1,0 +1,68 @@
+$sections: section1, section2, section3, section4, section5;
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+header{
+	position:absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+
+	h2{
+		color:#fff;
+		line-height: 100vh;
+		font-size: 3em;
+	}
+}
+
+nav{
+	position: fixed;
+	background:#fff;
+	right: 5%;
+	top:2%;
+	padding:1em;
+	border-radius: 50em;
+	z-index: 10;
+
+		ul li{
+			display: inline;
+
+			&:last-of-type a{
+				margin-right:0;
+			}
+
+				a{
+					text-decoration: none;
+					margin-right: .5em;
+					color:#999;
+					&:hover{
+						color:green;
+					}
+				}
+		}
+}
+
+.main-container{
+	background: #eee;
+}
+
+@each $sectionbg in $sections{
+	.#{$sectionbg} {
+		background: url("resources/#{$sectionbg}-bg.jpg") no-repeat center center fixed;
+		background-size: cover;
+		width: 100vw;
+		height: 100vh;
+		position:relative;
+	}
+
+}
+

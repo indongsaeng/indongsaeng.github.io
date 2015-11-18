@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Lato', sans-serif; }
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center; }
+  header h2 {
+    color: #fff;
+    line-height: 100vh;
+    font-size: 3em; }
+
+nav {
+  position: fixed;
+  background: #fff;
+  right: 5%;
+  top: 2%;
+  padding: 1em;
+  border-radius: 50em;
+  z-index: 10; }
+  nav ul li {
+    display: inline; }
+    nav ul li:last-of-type a {
+      margin-right: 0; }
+    nav ul li a {
+      text-decoration: none;
+      margin-right: .5em;
+      color: #999; }
+      nav ul li a:hover {
+        color: green; }
+
+.main-container {
+  background: #eee; }
+
+.section1 {
+  background: url("resources/section1-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+.section2 {
+  background: url("resources/section2-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+.section3 {
+  background: url("resources/section3-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+.section4 {
+  background: url("resources/section4-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+
+.section5 {
+  background: url("resources/section5-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
