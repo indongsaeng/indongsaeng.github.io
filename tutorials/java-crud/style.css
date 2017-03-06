@@ -1,0 +1,26 @@
+
+a{
+	outline:none;
+}
+.navi-btn{
+	display: block
+}
+figure{
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+}
+.pagination{
+	position:relative;
+
+}
+@media only screen and (min-width: 993px){
+	nav .brand-logo{
+	left:2%;
+	}
+}
+@media only screen and (max-width: 598px){
+	.container{
+		width: 80%;
+	}
+}
