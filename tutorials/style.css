@@ -2,6 +2,9 @@
 a{
 	outline:none;
 }
+.navi-btn{
+	display: block
+}
 figure{
 	margin: 0px auto;
 	display: block;
